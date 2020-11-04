@@ -93,7 +93,36 @@ body {scroll-behavior: smooth;}
 .surprise .header .tnb li:hover {
 	color: #222;
 }
-
+.surprise .header .tit_txt {
+	position: absolute;
+	top: 40%; left: 40%; 
+	font-family: 'Noto Sans KR', serif;
+	letter-spacing: -5px;
+}
+.surprise .header .tit_txt h1 {
+	font-size: 50px;
+}
+.surprise .header .tit_txt span {
+	margin-right: 10px;
+	font-size: 58px;
+	font-weight: 600;
+	color: #e5474b;
+}
+.surprise .header .tit_txt .emogi {
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	margin-left: 20px;
+	animation: target_image 1.2s; 
+	animation-iteration-count: infinite;
+}
+@keyframes target_image {
+0% { transform: rotate(20deg); }
+50% { transform: rotate(30deg) }
+100% { transform: rotate(20deg); }
+}
+	
+	
 .toggle {
 	position: relative;
 	z-index: 90;
@@ -109,7 +138,7 @@ body {scroll-behavior: smooth;}
 	position: absolute;
 	top: 0; left: 0;
 	overflow: hidden;
-	background: url(../img/img_main08.png);
+	background: url(../img/img_main09.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;

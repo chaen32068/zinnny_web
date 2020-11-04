@@ -65,6 +65,35 @@ body {scroll-behavior: smooth;}
 	width: 100px;
 	margin-top: 20px;
 }
+.surprise .header .tit_txt {
+	position: absolute;
+	top: 40%; left: 25%;
+	font-family: 'Noto Sans KR', serif;
+	letter-spacing: -3px;
+}
+.surprise .header .tit_txt h1 {
+	font-size: 25px;
+}
+.surprise .header .tit_txt span {
+	margin-right: 3px;
+	font-size: 30px;
+	font-weight: 600;
+	color: #e5474b;
+}
+.surprise .header .tit_txt .emogi {
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	margin-left: -10px;
+	animation: target_image 1.2s; 
+	animation-iteration-count: infinite;
+}
+@keyframes target_image {
+0% { transform: rotate(20deg); }
+50% { transform: rotate(30deg) }
+100% { transform: rotate(20deg); }
+}
+	
 .wrap .header {
 	position: relative;
 	width: 100%;
@@ -76,15 +105,15 @@ body {scroll-behavior: smooth;}
 	position: absolute;
 	top: 0; left: 0;
 	overflow: hidden;
-	background: url(../img/img_main08.png);
+	background-color: #ffcf01;
 	background-repeat: no-repeat;
-	background-position: 57%;
+	background-position: 10%;
 	background-size: cover;
 	background-attachment: inherit;
 }
 .deck:before,
 .deck:after {
-display: none;
+	display: none;
 }
 .deck:before {
 	display: none;;
