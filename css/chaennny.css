@@ -534,7 +534,7 @@ body {scroll-behavior: smooth;}
 }
 .swiper-slide .right h2 {
 	margin-top: 60px;
-	letter-spacing: -3px;
+	/*letter-spacing: -3px;*/
 	line-height: 55px;
 	font-size: 40px;
 	font-weight: 600;
