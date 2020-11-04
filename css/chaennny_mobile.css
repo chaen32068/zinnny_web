@@ -67,7 +67,7 @@ body {scroll-behavior: smooth;}
 }
 .surprise .header .tit_txt {
 	position: absolute;
-	top: 40%; left: 25%;
+	top: 30%; left: 25%;
 	font-family: 'Noto Sans KR', serif;
 	letter-spacing: -3px;
 }
@@ -106,9 +106,9 @@ body {scroll-behavior: smooth;}
 	top: 0; left: 0;
 	overflow: hidden;
 	background-color: #ffcf01;
+  background-image: url(../img/img_bg_leaf.png);
 	background-repeat: no-repeat;
-	background-position: 10%;
-	background-size: cover;
+	background-position: center 80%;
 	background-attachment: inherit;
 }
 .deck:before,
