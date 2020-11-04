@@ -67,7 +67,7 @@ body {scroll-behavior: smooth;}
 }
 .surprise .header .tit_txt {
 	position: absolute;
-	top: 30%; left: 25%;
+	top: 27%; left: 25%;
 	font-family: 'Noto Sans KR', serif;
 	letter-spacing: -3px;
 }
@@ -103,12 +103,12 @@ body {scroll-behavior: smooth;}
 	width: 100%;
 	height: 100%;
 	position: absolute;
-	top: 0; left: 0;
+	top: 10; left: 0;
 	overflow: hidden;
 	background-color: #ffcf01;
   background-image: url(../img/img_bg_leaf.png);
 	background-repeat: no-repeat;
-	background-position: center 80%;
+	background-position: center 85%;
 	background-attachment: inherit;
 }
 .deck:before,
@@ -457,10 +457,11 @@ display: none;
 	height: 750px;
 }
 .swiper-slide .right .txt_box {
-	width: 100%;
+	width: 80%;
 	margin: 0 auto;
+  word-break: keep-all;
 }
-.swiper-slide .right .txt_box h2 {
+.swiper-slide .right h2 {
   width: 100%;
 	line-height: 30px;
 	font-size: 16px;
